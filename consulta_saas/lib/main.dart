@@ -11,17 +11,7 @@ void main() async {
   
   try {
     print('Initializing Firebase...'); // Debug print
-    await Firebase.initializeApp(
-      options: const FirebaseOptions(
-        apiKey: "AIzaSyASJTKc_uF-uT6tupEqkY1JV2Fic3OyXz4",
-        authDomain: "saas-consultas.firebaseapp.com",
-        projectId: "saas-consultas",
-        storageBucket: "saas-consultas.firebasestorage.app",
-        messagingSenderId: "676743833800",
-        appId: "1:676743833800:web:9920d0ad1968da8be9ddfd",
-        measurementId: "G-S5SJKDGTPT"
-      ),
-    );
+    await Firebase.initializeApp();
     print('Firebase initialized successfully'); // Debug print
   } catch (e) {
     print('Error initializing Firebase: $e'); // Debug print
