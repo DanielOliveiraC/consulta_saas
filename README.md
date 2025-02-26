@@ -57,6 +57,3 @@ lib/
 - Firebase Authentication para gerenciamento seguro de usuários
 - Regras de segurança do Firestore para proteção de dados
 
-## 📝 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
